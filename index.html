@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Create an Estimate | EstimatePro</title>
+    <!-- Bootstrap 5 CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,800;1,900&display=swap" rel="stylesheet">
+
+<!-- Custom CSS -->
+<style>
+	/* Custom styles go here */
+
+    *{
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .banner-section{
+        position: relative;
+
+        
+    }
+
+    .banner-section div.container{
+        position: relative;
+        z-index: 1;
+    }
+
+    .banner-section::before{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0%;
+        left: 0%;
+        background-color: rgba(0, 0, 0, 0.521);
+        z-index: 0;
+    }
+
+    .testimonial{
+        background-color: rgba(5, 67, 238, 0.308);
+        padding: 2%;
+        border-radius: 1rem;
+    }
+</style>
+</head>
+<body>
+	<!-- Navigation Bar -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">EstimatePro</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#how-it-works-section">How it Works</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="estimate.html">Get Started</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+    <!-- Banner Section -->
+<section style="background-image: url(pexels-karolina-grabowska-4219520.jpg); background-size: cover;" class="banner-section py-5">
+	<div class="container my-3">
+		<div class="row justify-content-center">
+			<div class="col-lg-8 text-center">
+				<h1 class="text-light">Create an Estimate for Your Project in Minutes</h1>
+				<p class="lead text-light">EstimatePro is the easiest way to create accurate and professional estimates for your projects. Say goodbye to manual calculations and spreadsheets.</p>
+				<a href="estimate.html" class="btn btn-primary btn-lg">Get Started Now</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- How it Works Section -->
+<section id="how-it-works-section" class="how-it-works-section text-light bg-dark py-5">
+	<div class="container">
+        <h1 class="text-center fw-bolder text-decoration-underline">How it Works</h1>
+		<div class="row mt-3">
+			<div class="col-lg-4 text-center">
+				<i class="fas fa-laptop fa-4x mb-4"></i>
+				<h3>Step 1: Enter Your Project Details</h3>
+				<p>Simply enter the details of your project including its scope, timeline, and budget.</p>
+			</div>
+			<div class="col-lg-4 text-center">
+				<i class="fas fa-cogs fa-4x mb-4"></i>
+				<h3>Step 2: Customize Your Estimate</h3>
+				<p>Customize your estimate by selecting the services you need and adjusting the quantities as needed.</p>
+			</div>
+			<div class="col-lg-4 text-center">
+				<i class="fas fa-check-circle fa-4x mb-4"></i>
+				<h3>Step 3: Review and Download Your Estimate</h3>
+				<p>Review your estimate for accuracy and download it in PDF format to share with your clients or team.</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Testimonials Section -->
+<section style="background-image: url(pexels-henry-&-co-1939485.jpg); background-size: cover;" class="testimonials-section py-5">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h2>What Our Users Say</h2>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-lg-8">
+				<div class="testimonial">
+					<p>"EstimatePro has helped me streamline my estimating process and has saved me a ton of time. The interface is easy to use and the estimates look professional."</p>
+					<p class="client-name">- Adam Jones Mohammed, Project Manager of Emily Construction ltd</p>
+				</div>
+				<div class="testimonial mt-3">
+					<p>"I was hesitant to try an estimating app, specialized for my needs. EstimatePro has exceeded my expectations and has become an essential tool for my business."</p>
+					<p class="client-name">- Abdul-Razak, Owner of Razak Designs</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Footer Section -->
+<footer class="footer-section bg-dark py-3">
+	<div class="container">
+		<div class="row text-light justify-content-center">
+			<div class="col-lg-8 text-center">
+				<p>&copy; 2023 EstimatePro. All Rights Reserved.</p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!-- Bootstrap 5 JS and Font Awesome JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://kit.fontawesome.com/6f8f6c2e65.js" crossorigin="anonymous"></script>
+</body>
+</html>
